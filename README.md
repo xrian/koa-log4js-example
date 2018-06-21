@@ -2,8 +2,10 @@
 koa 整合 [log4js](https://github.com/log4js-node/log4js-node) 例子
 [文档地址](https://log4js-node.github.io/log4js-node/)<br>
 
+
+
 想使用 koa 做 web 框架,在找日志模块,找了些,都没有自己满意的
-按理说,express 支持的中间件,koa 也会支持的.但是看了些别人将 koa 和 log4js 整合的例子,好复杂(想不通他们是怎么想的),于是就自己写了个 demo 传上来.
+按理说,express 支持的中间件,koa 也会支持的.但是看了些别人将 koa 和 log4js 整合的例子,好复杂(想不通他们是怎么写的),于是就自己写了个 demo 传上来.
 
 ## 运行 Demo
 安装依赖
@@ -37,6 +39,8 @@ var logger = require('log4js').getLogger("index");
 logger.info('');
 logger.error('');
 ```
+
+
 
 
 
