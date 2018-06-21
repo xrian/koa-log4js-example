@@ -1,0 +1,11 @@
+{
+  "name": "koa-log4j2-example",
+  "version": "0.1.0",
+  "dependencies": {
+    "koa": "~2.5.1",
+    "log4js": "~2.9.0"
+  },
+  "scripts": {
+    "start": "node app.js"
+  }
+}
